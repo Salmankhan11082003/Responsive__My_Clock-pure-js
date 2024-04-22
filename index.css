@@ -1,0 +1,58 @@
+/* Clock container with relative positioning, a red border, and a background image */
+#clock{
+      position: relative;
+      height: 40vw;
+      width:40vw;
+      background: url(clock4.png) no-repeat;
+      background-size: 100%;
+      top:40px;
+      margin:auto;
+}
+
+/* Hour hand with a black background, brown color, and a width and height of 2% and 20% respectively */
+#hour{
+      position: absolute; 
+      border-radius: 10px;
+      width: 2%;
+      height: 20%;
+      top: 30%;
+      left: 49.2%;
+      opacity: 0.8;
+      transform-origin: bottom;
+      background-color: gold;
+}
+
+/* Minute hand with a black background, green color, and a width and height of 0.6% and 24% respectively */
+#minute{
+      position: absolute;
+      border-radius: 10px;
+      width:0.6%;
+      height:24%;
+      top:25.4%;
+      left:49.7%;
+      opacity: 0.8;
+      transform-origin: bottom;
+      background-color:black; ;
+}
+
+/* Second hand with a black background, blue color, and a width and height of 0.5% and 21.4% respectively */
+#second{
+      position: absolute;
+      border-radius: 10px;
+      width:0.5%;
+      height:21.4%;
+      top:28%;
+      left:49.75%;
+      opacity: 0.8;
+      transform-origin: bottom;
+      background-color:red;
+}
+#author{
+      position: absolute;
+      top: 101%;
+      left: 51%;
+      transform: translate(-50%, -50%);
+      font-size: 20px;
+      font-family: 'Courier New', Courier, monospace;
+      color: black;
+}
